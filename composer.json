@@ -18,7 +18,7 @@
             "IContextTest\\": "src/"
         },
         "files": [
-            "src/Index.php"
+            "src/autoload.php"
         ]
     },
     "authors": [

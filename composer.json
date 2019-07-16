@@ -16,10 +16,7 @@
     "autoload": {
         "psr-4": {
             "IContextTest\\": "src/"
-        },
-        "files": [
-            "src/Index.php"
-        ]
+        }
     },
     "authors": [
         {

@@ -2,6 +2,8 @@
 
 namespace IContextTest\Index;
 
+require_once __DIR__ . '/../vendor/autoload.php';
+
 function openFile($innerFilePath, $mode)
 {
     $filePath = $innerFilePath[0] === DIRECTORY_SEPARATOR ? $innerFilePath : '.' . DIRECTORY_SEPARATOR . $innerFilePath;

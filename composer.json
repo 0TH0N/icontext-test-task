@@ -2,7 +2,7 @@
     "name": "s123/icontexttest",
     "description": "test task for vacancy",
     "license": "MIT",
-    "version": "1.0.7",
+    "version": "1.0.9",
     "minimum-stability": "dev",
     "repositories": [
         {
@@ -18,7 +18,7 @@
             "IContextTest\\": "src/"
         },
         "files": [
-            "src/autoload.php"
+            "src/Index.php"
         ]
     },
     "authors": [

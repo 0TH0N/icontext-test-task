@@ -1,11 +1,9 @@
 {
     "name": "s123/icontexttest",
     "description": "test task for vacancy",
-    "type": "package",
     "license": "MIT",
     "version": "1.0.5",
-    "minimum-stability": "stable",
-    "prefer-stable": true,
+    "minimum-stability": "dev",
     "repositories": [
         {
             "type": "vcs",

@@ -3,7 +3,8 @@
     "description": "test task for vacancy",
     "type": "package",
     "license": "MIT",
-    "version": "1.0.3",
+    "version": "1.0.4",
+    "minimum-stability": "stable",
     "repositories": [
         {
             "type": "vcs",

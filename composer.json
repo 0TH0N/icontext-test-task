@@ -4,6 +4,12 @@
     "type": "package",
     "version": "1.0.1",
     "minimum-stability": "stable",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/0TH0N/icontext-test-task"
+        }
+    ],
     "bin": [
         "bin/countfs"
     ],

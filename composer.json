@@ -3,6 +3,7 @@
     "description": "test task for vacancy",
     "type": "package",
     "version": "1.0.0",
+    "minimum-stability": "stable",
     "bin": [
         "bin/countfs"
     ],

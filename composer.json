@@ -1,0 +1,23 @@
+{
+    "name": "s123/icontexttest",
+    "description": "test task for vacancy",
+    "type": "package",
+    "bin": [
+        "bin/countfs"
+    ],
+    "autoload": {
+        "psr-4": {
+            "IContextTest\\": "src/"
+        },
+        "files": [
+            "src/Index.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "0TH0N",
+            "email": "jbator777@gmail.com"
+        }
+    ],
+    "require": {}
+}

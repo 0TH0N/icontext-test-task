@@ -1,0 +1,14 @@
+#!/usr/bin/env php
+<?php
+
+namespace IContextTest\Bin;
+
+require_once __DIR__ . '/../vendor/autoload.php';
+
+use IContextTest\Index;
+
+$fieldsCount = $argv[1];
+$chipCount = $argv[2];
+$filePath = $argv[3] ?? 'result.txt';
+
+Index\run($fieldsCount, $chipCount, $filePath);

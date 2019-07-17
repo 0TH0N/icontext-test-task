@@ -2,7 +2,7 @@
     "name": "s123/icontexttest",
     "description": "test task for vacancy",
     "license": "MIT",
-    "version": "1.0.12",
+    "version": "1.0.13",
     "minimum-stability": "dev",
     "repositories": [
         {

@@ -82,21 +82,23 @@ function run($fieldsCount, $chipCount, $innerFilePath)
         }
         $fieldSet->increaseCurrentNumberToOne();
     }
-    \ftruncate($tempFile, \filesize($tempFileName) - 2);
     \fclose($tempFile);
     
     $file = openFile($innerFilePath, 'w');
     $phrase = getPhrase($rightCount);
     \fwrite($file, $phrase);
 
-    $tempFile = openFile($tempFileName, 'r');
+    if ($rightCount >= 10) {
+        $tempFile = openFile($tempFileName, 'r');
 
-    while (!\feof($tempFile)) {
-        $buffer = \fread($tempFile, 256);
-        \fwrite($file, $buffer);
+        while (!\feof($tempFile)) {
+            $buffer = \fread($tempFile, 256);
+            \fwrite($file, $buffer);
+        }
+        \fclose($tempFile);
     }
 
-    \fclose($tempFile);
     \unlink($tempFileName);
+    \ftruncate($file, \filesize($innerFilePath) - 2);
     \fclose($file);
 }
